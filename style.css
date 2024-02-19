@@ -1,15 +1,20 @@
-/* General Styles */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Reset Styles */
+html, body {
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 0 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,56 +23,49 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #222;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-h1, h2, h3 {
-    margin-top: 0;
+h1 {
+    margin: 0;
 }
 
 nav {
-    background-color: #666;
-    padding: 10px 0;
     text-align: center;
 }
 
 nav a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
-    margin: 0 20px;
-    transition: all 0.3s ease;
+    margin: 0 10px;
 }
 
 nav a:hover {
-    color: #ffd700;
+    text-decoration: underline;
 }
 
-/* Project Styles */
+/* About Section */
+#about {
+    padding: 20px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+}
+
 .project {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .project img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* About Section */
-#about {
-    background-color: #f0f0f0;
-    padding: 40px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
 #contact {
-    background-color: #f0f0f0;
-    padding: 40px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
